@@ -43,17 +43,17 @@
         <tr>
             <td class="slno">1.</td>
             <td class="filled">Name of the Enterprise</td>
-            <td class="input"></td>
+            <td class="input"><input type="text" class="form-control" placeholder="Name of the Enterprise"></td>
         </tr>
         <tr>
             <td class="slno">2.</td>
             <td class="filled space"> Registered Office Address :</td>
-            <td class="input space"></td>
+            <td class="input space"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
         </tr>
         <tr>
             <td class="slno">3.</td>
             <td class="filled space">Address of the Factory / Shop :</td>
-            <td class="input space"></td>
+            <td class="input space"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
         </tr>
         <tr>
             <td class="slno">4.</td>
@@ -84,22 +84,23 @@
         <tr>
             <td class="slno">5.</td>
             <td class="filled"> Mobile No. :</td>
-            <td class="input"></td>
+            <td class="input"><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
         </tr>
         <tr>
             <td class="slno">6.</td>
             <td class="filled">Telephone number :</td>
-            <td class="input"></td>
+            <td class="input"><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            
         </tr>
         <tr>
             <td class="slno">7.</td>
             <td class="filled">PAN Card no :</td>
-            <td class="input"></td>
+            <td class="input"><input type="text" class="form-control" placeholder="Enter PAN Card no"></td>
         </tr>
         <tr>
             <td class="slno">8.</td>
             <td class="filled"> Email Address : </td>
-            <td class="input"></td>
+            <td class="input"><input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></td>
         </tr>
         <tr>
             <td class="slno">9.</td>
@@ -131,27 +132,28 @@
         <tr>
             <td class="slno">10.</td>
             <td class="filled">Date of Establishment :</td>
-            <td class="input"></td>
+            <td class="input"><input class="form-control" type="date" value="2021-06-08" id="example-date-input"></td>
         </tr>
         <tr>
             <td class="slno">11.</td>
             <td class="filled">City where loan is required  :</td>
-            <td style=" text-align: left;" class="input">District :</td>
+            <td style=" text-align: left;" class="input">District :<input type="text" class="form-control" placeholder="Enter City and District"></td>
         </tr>
         <tr>
             <td class="slno">12.</td>
             <td class="filled"> State</td>
-            <td class="input"></td>
+            <td class="input"><input type="text" class="form-control" placeholder="Enter State"></td>
         </tr>
         <tr>
             <td class="slno">13.</td>
             <td class="filled"> Branch where loan is required (if any)</td>
-            <td class="input"></td>
+            <td class="input"><input type="text" class="form-control" placeholder="Branch Name"></td>
         </tr>
         <tr>
             <td class="slno">14.</td>
             <td class="filled"> Name of Proprietor / Partners / Directors of company and their addresses :</td>
-            <td class="input"></td>
+            <td class="input"><input type="text" class="form-control" placeholder="Name"><br>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address"></textarea></td>
         </tr>
     </table>
     <table style="border-color: black;" class="table table-bordered">
@@ -166,42 +168,41 @@
     
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
         </tr>
     </table>
     <table class="table table-bordered">
         <colgroup span="3"></colgroup>
         <tr>
             <td class="slno">15.</td>
-            <td class="filled"> Activity :                   Existing:</td>
-            <td class="input">Since:
-            </td>
+            <td class="filled"> Activity :<input type="text" class="form-control" placeholder="">Existing:<input type="text" class="form-control" placeholder=""></td>
+            <td class="input">Since: <input type="text" class="form-control" placeholder=""></td>
         </tr>
         <tr>
             <td class="slno"></td>
             <td class="filled space">Proposed: (#)</td>
-            <td class="input space"></td>
+            <td class="input space"><input type="text" class="form-control" placeholder=""></td>
         </tr>
         <table class="table table-bordered">
             <colgroup span="1"></colgroup>
@@ -210,42 +211,42 @@
             </tr>
         </table>
         <table class="table table-bordered">
-            <colgroup span="3"></colgroup>
+            <colgroup span="2"></colgroup>
             <tr>
                 <td class="slno">16.</td>
                 <td class="filled space">Names of Associate Concerns and Nature of Association :  </td>
-                <td class="input space"></td>
+                
             </tr>
         </table>
         <table class="table table-bordered">
             <colgroup span="4"></colgroup>
             <tr>
-                <td class="slno">Name of Associate Concern</td>
-                <td class="filled space">Address of Associate Concern</td>
+                <td class="name">Name of Associate Concern</td>
+                <td class="filled space addr">Address of Associate Concern</td>
                 <td class="input space">Presently Banking with</td>
                 <td class="input space">Nature of Association</td>
                 <td class="input space">Extent of Interest  as a Prop. / Part‐ ner / Director or Just Investor in Associate Concern</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control name" placeholder=""></td>
+                <td class=" addr"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control name" placeholder=""></td>
+                <td class=" addr"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control name" placeholder=""></td>
+                <td class=" addr"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             
         </table>
@@ -289,48 +290,48 @@
             </tr>
             <tr>
                 <th>Current Account</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
                 <th>Cash Credit</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
                 <th>Term Loans</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
                 <th>LC / BG</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
             <tr>
                 <th>Others</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
             </tr>
         </table>
         <table class="table table-bordered">
@@ -363,20 +364,20 @@
                
             </tr>
             <tr>
+                <th>Primary Security
+                    (Details with approx. value to 
+                    be mentioned.)</th>
                 <th>Whether Collateral 
                     Security offered
                     (Please mention Yes / No). (If YES, 
                     then provide details in Column 20)</th>
-                <th>Primary Security
-                    (Details with approx. value to 
-                    be mentioned.)</th>
                 
             </tr>
             <tr>
                 <th>Cash Credit</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
                 <td>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -390,9 +391,9 @@
             </tr>
             <tr>
                 <th>Term Loans</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
                 <td>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -406,9 +407,9 @@
             </tr>
             <tr>
                 <th>LC / BG</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
                 <td>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -422,9 +423,9 @@
             </tr>
             <tr>
                 <th>Others</th>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
                 <td>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -453,23 +454,23 @@
             
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
             
         </tr>
         <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
             
         </tr>
         
@@ -507,32 +508,32 @@
         </tr>
         <tr>
             <td>1.</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td class=" addr1"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
             
         </tr>
         <tr>
             <td>2.</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td class=" addr1"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
             
         </tr>
         <tr>
             <td>3.</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td class=" addr1"><textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Address"></textarea></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="tel" class="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="10-Digit number" required></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
+            <td><input type="text" class="form-control" placeholder=""></td>
             
         </tr>
     </table>   
@@ -568,26 +569,26 @@
             </tr>
             <tr>
                 <td>Net Sales</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
 
             </tr>
             <tr>
                 <td>Net Profit</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
 
             </tr>
             <tr>
                 <td>Capital (Net Worth in case of companies)</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
+                <td><input type="text" class="form-control" placeholder=""></td>
 
             </tr>
             <table class="table table-bordered">
@@ -614,33 +615,78 @@
                 </tr>
                 <tr>
                     <td>1. Registration under Shops and Establishment Act.</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                        <input type="text" class="form-control" placeholder="">
+                      </div></td>
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
                 <tr>
                     <td>2. Registration under MSME (Provisional / Final)</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label><input type="text" class="form-control" placeholder="">
+                      </div>
+                      
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
                 <tr>
                     <td>3. Drug License</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label>
+                        <input type="text" class="form-control" placeholder="">
+                      </div></td>
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
                 <tr>
                     <td>4. Latest Sales Tax return filed</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label><input type="text" class="form-control" placeholder="">
+                      </div></td>
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
                 <tr>
                     <td>5. Latest Income Tax return filed</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label><input type="text" class="form-control" placeholder="">
+                      </div></td>
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
                 <tr>
                     <td>6. Any other Statutory dues remaining outstanding</td>
-                    <td></td>
-                    <td></td>
+                    <td><div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">YES</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">NO</label><input type="text" class="form-control" placeholder="">
+                      </div></td>
+                    <td><input type="text" class="form-control" placeholder=""></td>
                 </tr>
         
             </table>
