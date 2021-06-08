@@ -31,7 +31,9 @@ hr{
     border-bottom: none;
     width: 170px;
 }
-
+p{
+    font-weight: lighter;
+}
 #p{
     text-align: left;
 }
@@ -70,7 +72,4 @@ hr{
 }
 div{
     position: relative;
-}
-p{
-    font-weight: lighter;
 }
