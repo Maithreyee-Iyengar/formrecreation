@@ -1,0 +1,68 @@
+table{
+    text-align: center;
+}
+
+th{
+    border-style:solid;border-color: black;
+    height: 50px;
+    text-align: left;
+}
+.slno{
+    width: 50px;
+}
+.filled{
+    width: 220px;
+}
+.input{
+    width: 500px;
+}
+.space{
+    height: 70px;
+}
+body{
+    text-align: center;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    border: 2px solid black;
+    border-left:none;
+    border-right: none;
+    border-bottom: none;
+    width: 170px;
+}
+#p{
+    text-align: left;
+}
+.hr{
+    border: 2px solid black;
+    height: 70px;
+}
+#top-line{
+    width: 1000px;
+}
+.photo{
+    margin-bottom: 100px;
+}
+.rules{
+    position: relative;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#Ins{
+    margin-top: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.place{
+    margin-bottom: 100px;
+}
+.sign{
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.decl{
+    text-align: left;
+}
