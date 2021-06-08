@@ -31,6 +31,9 @@ hr{
     border-bottom: none;
     width: 170px;
 }
+td{
+    text-align: left;
+}
 p{
     font-weight: lighter;
 }
