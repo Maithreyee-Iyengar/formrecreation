@@ -67,3 +67,6 @@ hr{
 .decl{
     text-align: left;
 }
+div{
+    position: relative;
+}
