@@ -111,3 +111,6 @@ width:600px;
 .addr1{
     width: 400px;
 }
+td{
+    text-align: left;
+}
