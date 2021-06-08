@@ -39,7 +39,8 @@ hr{
     height: 70px;
 }
 #top-line{
-    width: 1000px;
+    width:100%;
+  
 }
 .photo{
     margin-bottom: 100px;
